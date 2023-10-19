@@ -22,7 +22,7 @@ function Done({ edited, tasks, deleteCard }) {
           .map((todo, id) => (
             <div
               key={todo.id}
-              draggable
+            
               className="total-card"
               onDragStart={(e) => onDragStart(e, todo.id)}
             >
